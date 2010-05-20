@@ -1,0 +1,22 @@
+<RelativeLayout android:id="@+id/RelativeLayout01" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				xmlns:android="http://schemas.android.com/apk/res/android">
+<Button android:id="@+id/Back" android:text="Back" android:layout_height="wrap_content" android:layout_width="wrap_content" android:ellipsize="none" android:width="100px" android:layout_marginTop="5px" android:layout_marginLeft="5px"></Button>			
+
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/Back" android:layout_centerInParent="true" android:layout_centerVertical="true" android:text="Options" android:textSize="30px" android:id="@+id/Options" android:paddingTop="5px"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textSize="20px" android:layout_marginTop="10px" android:paddingLeft="20px" android:text="Difficulty:" android:layout_below="@+id/Options" android:id="@+id/difficulty_lbl"></TextView>
+
+
+<RadioGroup android:id="@+id/rdgpDifficulty" android:layout_width="wrap_content" android:layout_height="160px" android:layout_below="@+id/difficulty_lbl" android:paddingLeft="20px">
+<RadioButton android:id="@+id/rdbtnEasy" android:layout_height="wrap_content" android:text="Easy" android:layout_below="@+id/Options" android:layout_width="fill_parent"></RadioButton>
+<RadioButton android:id="@+id/rdbtnMedium" android:layout_height="wrap_content" android:text="Medium" android:layout_width="wrap_content" android:layout_below="@+id/Options"></RadioButton>
+<RadioButton android:id="@+id/rdbtnHard" android:layout_height="wrap_content" android:text="Hard" android:layout_width="wrap_content" android:layout_below="@+id/Options"></RadioButton>
+</RadioGroup>
+
+
+
+<TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_below="@+id/rdgpDifficulty" android:paddingLeft="20px" android:paddingTop="20px" android:textSize="20px" android:text="Sound:" android:layout_marginTop="20px"></TextView>
+<ToggleButton android:layout_toRightOf="@+id/TextView01" android:layout_height="wrap_content" android:text="@+id/ToggleButton01" android:layout_width="wrap_content" android:id="@+id/tglSound" android:layout_below="@+id/rdgpDifficulty" android:layout_marginLeft="30px" android:layout_marginTop="20px"></ToggleButton>
+</RelativeLayout>

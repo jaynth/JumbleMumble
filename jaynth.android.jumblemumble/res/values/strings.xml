@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Jumble Mumble</string>
+<string name = "help_text">A Fun Way to Improve your vocabulary! There are three levels of difficulty
+
+1. Easy - 59s
+2. Medium - 35s
+3. Hard - 20s
+
+Try unraveling as many words and you can. Try finding out their meanings.Improve your pattern recognition and Vocabulary skills.
+
+This is Version 1.0. 
+Look out for newer versions with more engaging features.</string>
+<string name="help_title">Jumble Help</string>
+<string name="quit_dialog">Are you sure you want to quit?</string>
+<string name="timer_dialog">Your time is up. Do you want to continue or quit?</string>
+
+
+
+
+
+</resources>

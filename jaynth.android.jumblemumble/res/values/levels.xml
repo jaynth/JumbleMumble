@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="string" format="integer" name="level0">59</item>
+<item type="string" format="integer" name="level1">35</item>
+<item type="string" format="integer" name="level2">15</item>
+</resources>

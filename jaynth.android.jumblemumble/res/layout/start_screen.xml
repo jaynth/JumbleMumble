@@ -1,0 +1,11 @@
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<Button android:text="Options" android:layout_height="wrap_content" android:id="@+id/btnOptions" android:clickable="true" android:layout_width="150px" android:layout_centerHorizontal="true" android:layout_centerInParent="true">
+</Button>
+<Button android:text="Start Game" android:layout_height="wrap_content" android:id="@+id/btnStartGame" android:clickable="true" android:layout_width="150px" android:layout_centerHorizontal="true" android:layout_centerInParent="true" android:layout_above="@+id/btnOptions" android:layout_marginTop="50px">
+</Button>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:id="@+id/lblJumbleMumble" android:textSize="30px" android:layout_marginTop="30px" android:text="JumbleMumble"></TextView><Button android:text="Help" android:layout_height="wrap_content" android:id="@+id/btnHelp" android:clickable="true" android:layout_width="150px" android:layout_centerHorizontal="true" android:layout_centerInParent="true" android:layout_below="@+id/btnOptions">
+</Button>
+<Button android:text="Quit" android:layout_height="wrap_content" android:id="@+id/btnQuit" android:clickable="true" android:layout_width="150px" android:layout_centerHorizontal="true" android:layout_centerInParent="true" android:layout_below="@+id/btnHelp">
+</Button>
+</RelativeLayout>
